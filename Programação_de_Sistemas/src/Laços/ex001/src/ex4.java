@@ -3,6 +3,9 @@ package ex001.src;
 import java.util.Scanner;
 
 public class ex4 {
+    /**
+     * @param args
+     */
     public static void main(String[] args) {
         Scanner entrada = new Scanner(System.in);
         int Cp;
@@ -12,8 +15,6 @@ public class ex4 {
         Pe = entrada.nextFloat();
         System.out.print("Código do Produto : ");
         Cp = entrada.nextInt();
-
-        
         switch (Cp) {
             case 1:
                 System.out.println("À vista em dinheiro ou cheque, com 10% de desconto");
@@ -34,7 +35,6 @@ public class ex4 {
             default:
                 System.out.println("Código Inválido!!");
                 break;
-        }
-        entrada.close();
+        }entrada.close();
     }
 }
