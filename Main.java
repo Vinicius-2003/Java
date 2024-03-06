@@ -1,29 +1,39 @@
 import java.util.Scanner;
 
 public class Main {
-    public static void vetor_positivo(int[] vetor_inicial, int[] vetor_positivo) {
-        int count = 0; //Esse contador só vai funcionar quando o valor for positivo
-        for(int i = 0; i<vetor_inicial.length;i++){ //percorre o vetor inicial 
-            if(vetor_inicial[i]> 0){ //verifica se o valor é positivo
-                vetor_positivo[count] = vetor_inicial[i]; //colocar o valor positivo no vetor_positivo
-                count++; //acrescenta uma posição no contador
+
+    public static int vetor_positivos(int[] vetor_inicial, int[] vetor_positivo) {
+        int count = 0;
+        for (int i = 0; i < vetor_inicial.length; i++) {
+            if (vetor_inicial[i] > 0) {
+                vetor_positivo[count] = vetor_inicial[i];
+                count++;
             }
         }
-        System.out.println(); //pula uma linha 
-        for (int j = 0; j<count;j++){ //percorre o vetor_positivo
-            System.out.println(vetor_positivo[j]); //printa linha por linha do vetor
-        }
+        return count;
     }
 
     public static void main(String[] args) {
-        Scanner entrada = new Scanner(System.in);
-        int[] vetor_inicial = new int[10]; //cria os vetores
-        int[] vetor_positivo = new int[10];
 
-        for (int i = 0; i < vetor_inicial.length; i++) { //Completa o vetor inicial 
-            vetor_inicial[i] = entrada.nextInt();
+        int[] vetor = new int[10];
+        int[] positivos = new int[10];
+        int x = 0;
+        Scanner input = new Scanner(System.in);
+
+        for (int i = 0; i < vetor.length; i++) {
+            vetor[i] = input.nextInt();
         }
-        vetor_positivo(vetor_inicial, vetor_positivo); //chama a função para realizar a operação
-        entrada.close(); //fecha o Scanner
+
+        x = vetor_positivos(vetor, positivos);
+
+        System.out.println();
+        if (x > 0) {
+            for (int i = 0; i < x; i++) {
+                System.out.println(positivos[i]);
+            }
+        } else {
+            System.out.println("Nenhum valor positivo adicionado.");
+        }
+        input.close();
     }
 }
