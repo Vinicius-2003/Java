@@ -1,4 +1,4 @@
-package ex001.src;
+package Programação_de_Sistemas.Laços;
 
 import java.util.Scanner;
 
