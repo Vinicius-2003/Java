@@ -1,4 +1,3 @@
-package Programação_de_Sistemas;
 
 import java.util.Scanner;
 
