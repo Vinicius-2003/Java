@@ -1,4 +1,4 @@
-public class motocicleta {
+public class Motocicleta {
     String modelo;
     String marca;
     String nroPlaca;
@@ -6,30 +6,43 @@ public class motocicleta {
     int nroCilindradas;
     int nroChassi;
 
-    public motocicleta(String modelo, String marca, String nroPlaca, String cor, int nroCilindradas, int nroChassi) {
-        this.modelo = "";
-        this.marca = "";
-        this.nroPlaca = "";
-        this.cor = "";
-        this.nroCilindradas = 0;
-        this.nroChassi = 0;
+    public void licenciar() {
+        String placa = this.nroPlaca;
+        if (placa.charAt(placa.length() - 1) == '1') {
+            System.out.println("abril");
+        }
+        if (placa.charAt(placa.length() - 1) == '2') {
+            System.out.println("maio");
+        }
+        if (placa.charAt(placa.length() - 1) == '3') {
+            System.out.println("junho");
+        }
+        if (placa.charAt(placa.length() - 1) == '4') {
+            System.out.println("julho");
+        }
+        if (placa.charAt(placa.length() - 1) == '5' || placa.charAt(placa.length() - 1) == '6') {
+            System.out.println("agosto");
+        }
+        if (placa.charAt(placa.length() - 1) == '7') {
+            System.out.println("setembro");
+        }
+        if (placa.charAt(placa.length() - 1) == '8') {
+            System.out.println("outubro");
+        }
+        if (placa.charAt(placa.length() - 1) == '9') {
+            System.out.println("novembro");
+        }
+        if (placa.charAt(placa.length() - 1) == '0') {
+            System.out.println("dezembro");
+        }
     }
 
-    public static String licenciar( String nroPlaca){
-        int tamanho = nroPlaca.length();
-        char [] vetor = new char[tamanho]; 
-        for(int i =0; i<tamanho; i++){
-            vetor[i] = nroPlaca.charAt(i);
-        }
-        int aux = vetor[vetor.length-1];
-        
-        switch (aux) {
-            case "1";
-System.out.println();
-                break;
-        
-            default:
-                break;
+    public boolean checaChassi(int nro) {
+        int aux = this.nroChassi;
+        if (nro == aux) {
+            return true;
+        } else {
+            return false;
         }
     }
 }
