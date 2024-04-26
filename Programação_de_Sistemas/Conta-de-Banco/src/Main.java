@@ -7,5 +7,6 @@ public class Main {
         cliente.setSaque(500);
         cliente.getTotal_conta();
 
+        s.close();
     }
 }
