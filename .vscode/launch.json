@@ -1,0 +1,153 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "associacao_de_classes.Main",
+            "projectName": "Java_b28d6ae0"
+        },
+        {
+            "type": "java",
+            "name": "Launch Java Program",
+            "request": "launch",
+            "mainClass": ""
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Conversor_temperatura",
+            "request": "launch",
+            "mainClass": "Conversor_temperatura",
+            "projectName": "Java_b28d6ae0"
+        },
+        {
+            "type": "java",
+            "name": "Exercicio_lojas",
+            "request": "launch",
+            "mainClass": "Exercicio_lojas",
+            "projectName": "Java_b28d6ae0"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Main",
+            "projectName": "Java_b28d6ae0"
+        },
+        {
+            "type": "java",
+            "name": "ex1",
+            "request": "launch",
+            "mainClass": "Programação_de_Sistemas.Laços.ex1",
+            "projectName": "Java_b28d6ae0"
+        },
+        {
+            "type": "java",
+            "name": "ex2",
+            "request": "launch",
+            "mainClass": "Programação_de_Sistemas.Laços.ex2",
+            "projectName": "Java_b28d6ae0"
+        },
+        {
+            "type": "java",
+            "name": "ex3",
+            "request": "launch",
+            "mainClass": "Programação_de_Sistemas.Laços.ex3",
+            "projectName": "Java_b28d6ae0"
+        },
+        {
+            "type": "java",
+            "name": "ex4",
+            "request": "launch",
+            "mainClass": "Programação_de_Sistemas.Laços.ex4",
+            "projectName": "Java_b28d6ae0"
+        },
+        {
+            "type": "java",
+            "name": "ex5",
+            "request": "launch",
+            "mainClass": "Programação_de_Sistemas.Laços.ex5",
+            "projectName": "Java_b28d6ae0"
+        },
+        {
+            "type": "java",
+            "name": "ex001",
+            "request": "launch",
+            "mainClass": "ex001",
+            "projectName": "Java_b28d6ae0"
+        },
+        {
+            "type": "java",
+            "name": "Main(1)",
+            "request": "launch",
+            "mainClass": "ex001.Main",
+            "projectName": "Java_b28d6ae0"
+        },
+        {
+            "type": "java",
+            "name": "ex002",
+            "request": "launch",
+            "mainClass": "ex002",
+            "projectName": "Java_b28d6ae0"
+        },
+        {
+            "type": "java",
+            "name": "Main(2)",
+            "request": "launch",
+            "mainClass": "ex002.Main",
+            "projectName": "Java_b28d6ae0"
+        },
+        {
+            "type": "java",
+            "name": "ex003",
+            "request": "launch",
+            "mainClass": "ex003",
+            "projectName": "Java_b28d6ae0"
+        },
+        {
+            "type": "java",
+            "name": "Main(3)",
+            "request": "launch",
+            "mainClass": "ex003.Main",
+            "projectName": "Java_b28d6ae0"
+        },
+        {
+            "type": "java",
+            "name": "ex005",
+            "request": "launch",
+            "mainClass": "ex005",
+            "projectName": "Java_b28d6ae0"
+        },
+        {
+            "type": "java",
+            "name": "ex006",
+            "request": "launch",
+            "mainClass": "ex006",
+            "projectName": "Java_b28d6ae0"
+        },
+        {
+            "type": "java",
+            "name": "ex007",
+            "request": "launch",
+            "mainClass": "ex007",
+            "projectName": "Java_b28d6ae0"
+        },
+        {
+            "type": "java",
+            "name": "ex02",
+            "request": "launch",
+            "mainClass": "ex02",
+            "projectName": "Java_b28d6ae0"
+        }
+    ]
+}
